@@ -15,7 +15,7 @@ class AwesomeComponent extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="awCmp" >
         Likes : <span>{this.state.likesCount}</span>
         <p>Test 5</p>
         <div><button onClick={this.onLike}>Like Me</button></div>
